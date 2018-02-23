@@ -15,16 +15,13 @@ http://youcc.tube
   * YouTube API v3
   * Firebase
 
-# Configurate
-
-* Update your YouTube API Key in the file: ...
-
-# Local Deployment:
+# Deployment:
 
 * ```git clone https://github.com/bukosabino/tuber.git```
 * ```cd tuber```
 * ```npm install```
 * ```./node_modules/webpack-dev-server/bin/webpack-dev-server.js```
+* Update your YouTube API Key in the file: app/Environment.js
 * Input in your browser: ```http://localhost:8080/public```
 
 # TODO:
