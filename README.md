@@ -1,6 +1,6 @@
 # YouCC.tube
 
-To Search/Filter/Sort/Download Creative Commons videos on YouTube.
+Search/Filter/Sort/Download Creative Commons videos on YouTube.
 
 # Live Demo
 
@@ -26,11 +26,13 @@ http://youcc.tube
 
 # TODO:
 
-* Download links
-* Style similar to YouTube (Material Design)
+* Similar style to YouTube (Material Design)
+* Pagination
 
 # Credits:
 
-This project is based on https://github.com/alexhawkins/tuber
+The code is based on https://github.com/alexhawkins/tuber
+
+To download, We use: https://github.com/Rudloff/alltube --> https://alltubedownload.net
 
 You can contact with @Pablohn26 and/or @Bukosabino to any contribution, idea or feedback.

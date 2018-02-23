@@ -22,7 +22,7 @@ var TableHeader = React.createClass({
                     <Title onSortBy={onSortBy} orderByDesc={orderByDesc.title} />
                     <Views onSortBy={onSortBy} orderByDesc={orderByDesc.views} />
                     <Created onSortBy={onSortBy} orderByDesc={orderByDesc.publishedAt} />
-                    <Id onSortBy={onSortBy} orderByDesc={orderByDesc.channelId} />
+                    <Id />
                 </tr>
             </thead>
         );

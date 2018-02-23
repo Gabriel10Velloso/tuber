@@ -18,14 +18,13 @@ var Main = React.createClass({
                     </div>
                 </nav>
                 <div className="container">
-                    <div className="intro-title">Can't find a video to watch?
+                    <div className="intro-title">Cant find a video to watch?
                         <span className="main-title">
                             &nbsp;Sort through your favorites below!
                         </span>
                     </div>
                     <RouteHandler/>
                 </div>
-                <span className="invisible-text">&copy; Alex Hawkins &mdash; 2015</span>
             </div>
         );
     }

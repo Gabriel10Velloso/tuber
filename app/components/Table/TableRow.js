@@ -10,7 +10,9 @@ var TableRow = React.createClass({
     },
 
     render: function() {
+
         var video = this.props.video;
+        console.log(video);
         var youTubeURL = "https://www.youtube.com/channel/";
         var imgURL = video.thumbnails.default.url;
         var newTitle = this.props.title;
@@ -20,15 +22,16 @@ var TableRow = React.createClass({
         var views = helpers.abbrNum(video.views, 2);
         var id = video.channelId;
         var link =  youTubeURL + id;
+        var downloadLink = "https://alltubedownload.net/video?url=" + link;
         var date = moment(video.publishedAt).fromNow();
 
         return (
             <tr>
-                <td><a href={link}><img className="img-thumbnail" src={imgURL}/></a></td>
+                <td><a href={link} target="_blank"><img className="img-thumbnail" src={imgURL}/></a></td>
                 <td className="video-title"><a href={link}>{newTitle}</a></td>
                 <td className="bold-title">{views}</td>
                 <td className="italic-title">{date}</td>
-                <td>{id}</td>
+                <td> <a href={downloadLink} target="_blank">Download link</a></td>
             </tr>
         );
     }
