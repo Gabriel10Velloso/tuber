@@ -4,7 +4,7 @@ var Config = require("../Environment");
 var searchYouTubeUtils = {
 
     getVideos: function(query, callback) {
-        query = "Creative Commons";
+        query = query || "Creative Commons";
         var baseURL = "https://www.googleapis.com/youtube/v3/search?";
         var specs = "safeSearch=moderate&part=snippet&q=";
         var maxResults = "&maxResults=" + Config.maxResults + "&key=";
