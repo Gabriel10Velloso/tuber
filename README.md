@@ -36,4 +36,4 @@ http://youcc.tube
 
 This project is based on https://github.com/alexhawkins/tuber
 
-You can contact with @Pablohn26 and/or @bukosabino to any contribution, idea or feedback.
+You can contact with @Pablohn26 and/or @Bukosabino to any contribution, idea or feedback.

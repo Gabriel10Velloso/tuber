@@ -21,7 +21,7 @@ var Id = React.createClass({
             "glyphicon-triangle-top": !this.props.orderByDesc
         });
         return (
-            <th>Identification
+            <th>Download Url
                 <span
                     onClick={this.handleClick}
                     className={classes}

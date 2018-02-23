@@ -1,0 +1,20 @@
+## Tuber
+#####*Search/Filter/Sort YouTube Videos Instantly*
+
+## Live Demo
+[Visit Tuber online!](https://tuber.firebaseapp.com/)
+
+## Technologies Used
+  * React
+  * React Router
+  * Flux
+  * Bootstrap
+  * YouTube API v3
+  * Firebase
+
+## SETUP:
+  * run ```npm install```
+  * run ```./node_modules/webpack-dev-server/bin/webpack-dev-server``` to run app locally.
+  * go to ```http://localhost:8080/public```
+
+For reference the final folder structure should look something like this:
