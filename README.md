@@ -8,14 +8,13 @@ http://youcc.tube
 
 # Technologies Used
 
-  * React
-  * React Router
-  * Flux
-  * Bootstrap
-  * YouTube API v3
-  * Firebase
+* React
+* React Router
+* Flux
+* Bootstrap
+* YouTube API v3
 
-# Deployment:
+# Deployment
 
 * ```git clone https://github.com/bukosabino/tuber.git```
 * ```cd tuber```
@@ -29,7 +28,7 @@ http://youcc.tube
 * Similar style to YouTube (Material Design)
 * Pagination
 
-# Credits:
+# Credits
 
 The code is based on https://github.com/alexhawkins/tuber
 

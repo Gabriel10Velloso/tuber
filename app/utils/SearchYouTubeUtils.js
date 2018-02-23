@@ -17,7 +17,6 @@ var searchYouTubeUtils = {
           var videoURL = baseURL + specs + query + maxResults + apiKey;
         }
 
-
         $.ajax({
             url: videoURL,
             type: "GET",

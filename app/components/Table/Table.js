@@ -36,8 +36,7 @@ var Table = React.createClass({
     handleTableRows: function(videos) {
         var userInput = this.props.filterBarText;
         return videos.map(function(video, index) {
-            video = video.snippet;
-            var title = video.title;
+            var title = video.snippet.title;
             var newTitle = title.toLowerCase().replace(/[@"\W|_"]+/g, "");
             var filterText = userInput.toLowerCase();
             if(newTitle.indexOf(filterText) !== -1)

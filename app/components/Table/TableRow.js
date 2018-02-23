@@ -10,17 +10,15 @@ var TableRow = React.createClass({
     },
 
     render: function() {
-
-        var video = this.props.video;
-        console.log(video);
-        var youTubeURL = "https://www.youtube.com/channel/";
+        var video = this.props.video.snippet;
+        var youTubeURL = "https://www.youtube.com/watch?v=";
         var imgURL = video.thumbnails.default.url;
         var newTitle = this.props.title;
             newTitle = newTitle.length > 50 ?
                 newTitle.slice(0,50) + "..." :
                 newTitle;
         var views = helpers.abbrNum(video.views, 2);
-        var id = video.channelId;
+        var id = this.props.video.id.videoId;
         var link =  youTubeURL + id;
         var downloadLink = "https://alltubedownload.net/video?url=" + link;
         var date = moment(video.publishedAt).fromNow();
