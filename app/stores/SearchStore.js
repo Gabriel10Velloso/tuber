@@ -12,7 +12,6 @@ var _state = {
 
 var setVideos = function(data){
     _state.videos = data;
-    console.log(data);
 };
 
 var setViews = function(data, setVideos) {

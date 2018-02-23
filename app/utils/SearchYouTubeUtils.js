@@ -1,4 +1,5 @@
 var $ = require("jquery");
+var Config = require("../Environment");
 
 var searchYouTubeUtils = {
 
@@ -6,11 +7,16 @@ var searchYouTubeUtils = {
         query = "Creative Commons";
         var baseURL = "https://www.googleapis.com/youtube/v3/search?";
         var specs = "safeSearch=moderate&part=snippet&q=";
-        var maxResults = "&maxResults=50&key=";
-        var apiKey = "AIzaSyC4W2PcBHccKu03OiW8l5Ff8LfsgdS5C44";
-        var cc = "&videoLicense=creativeCommon";
-        var type = "&type=video";
-        var videoURL = baseURL + specs + query + maxResults + apiKey + cc + type;
+        var maxResults = "&maxResults=" + Config.maxResults + "&key=";
+        var apiKey = Config.youtubeApiKey;
+        if (Config.creativeCommon) {
+          var cc = "&videoLicense=creativeCommon";
+          var type = "&type=video";
+          var videoURL = baseURL + specs + query + maxResults + apiKey + cc + type;
+        } else {
+          var videoURL = baseURL + specs + query + maxResults + apiKey;
+        }
+
 
         $.ajax({
             url: videoURL,
