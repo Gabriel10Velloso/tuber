@@ -1,10 +1,13 @@
-##Tuber
-#####*Search/Filter/Sort YouTube Videos Instantly*
+# YouCC.tube
 
-###Live Demo
-[Visit Tuber online!](https://tuber.firebaseapp.com/)
+To Search/Filter/Sort/Download Creative Commons videos on YouTube.
 
-###Technologies Used
+# Live Demo
+
+http://youcc.tube
+
+# Technologies Used
+
   * React
   * React Router
   * Flux
@@ -12,58 +15,25 @@
   * YouTube API v3
   * Firebase
 
-###SETUP:
-  * Fork this repo and clone your fork
-  * run ```npm install```
-  * run ```webpack -w``` to build and watch
-  * run ```webpack-dev-server``` to run app locally.
-  * go to ```http://localhost:8080/public```
+# Configurate
 
-For reference the final folder structure should look something like this:
+* Update your YouTube API Key in the file: ...
 
-###Code Architecture
+# Local Deployment:
 
-```
-├── app/
-│   ├── App.js
-│   ├── actions
-|   ├── ├── SearchActions.js
-|   ├── components/
-|   ├── ├── SearchBar/
-|   ├── ├── ├── SearchBar.js
-|   ├── ├── ├── SearchResultsContainer.js
-|   ├── ├── ├── Register.js
-|   ├── ├── Table/
-|   ├── ├── ├── Columns/
-|   ├── ├── ├── ├── Created.js
-|   ├── ├── ├── ├── Id.js
-|   ├── ├── ├── ├── Image.js
-|   ├── ├── ├── ├── Title.js
-|   ├── ├── ├── ├── Views.js
-|   ├── ├── ├── Table.js
-|   ├── ├── ├── TableContainer.js
-|   ├── ├── ├── TableFilterBar.js
-|   ├── ├── ├── TablerHeader.js
-|   ├── ├── ├── TableRow.js
-|   ├── ├── Main.js
-|   ├── config/
-|   ├── ├── routes.js
-|   ├── constants/
-|   ├── ├── AppConstants.js
-|   ├── dispatcher/
-|   ├── ├── AppDispatcher.js
-|   ├── stores/
-|   ├── ├── SearchStore.js
-|   ├── utils/
-|   ├── ├── Helpers/
-|   ├── ├── ├── helpers.js
-|   ├── ├── SearchYouTubeUtils.js
-├── public/
-│   ├── index.html
-|   ├── css/
-│   ├── ├── mains.css
-├── webpack.config.js
-├── package.json
-├── README.md
-├── .gitignore
-```
+* ```git clone https://github.com/bukosabino/tuber.git```
+* ```cd tuber```
+* ```npm install```
+* ```./node_modules/webpack-dev-server/bin/webpack-dev-server.js```
+* Input in your browser: ```http://localhost:8080/public```
+
+# TODO:
+
+* Download links
+* Style similar to YouTube (Material Design)
+
+# Credits:
+
+This project is based on https://github.com/alexhawkins/tuber
+
+You can contact with @Pablohn26 and/or @bukosabino to any contribution, idea or feedback.
