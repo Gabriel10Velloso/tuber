@@ -3,17 +3,6 @@ var classNames = require("classnames");
 
 var Id = React.createClass({
 
-    propTypes: {
-        onSortBy: React.PropTypes.func.isRequired,
-        orderByDesc: React.PropTypes.bool.isRequired
-    },
-
-    handleClick: function () {
-        this.props.onSortBy(
-            "channelId", !this.props.orderByDesc
-        );
-    },
-
     render: function() {
         var classes = classNames({
             "glyph glyphicon": true,
@@ -22,11 +11,6 @@ var Id = React.createClass({
         });
         return (
             <th>Download Url
-                <span
-                    onClick={this.handleClick}
-                    className={classes}
-                    aria-hidden="true">
-                </span>
             </th>
         );
     }
