@@ -4,7 +4,7 @@ Search/Filter/Sort/Download Creative Commons videos on YouTube.
 
 # Live Demo
 
-http://youcc.tube
+[youcc.tube](https://youcc.tube)
 
 # Technologies Used
 
