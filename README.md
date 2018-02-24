@@ -32,6 +32,6 @@ http://youcc.tube
 
 The code is based on https://github.com/alexhawkins/tuber
 
-To download, We use: https://github.com/Rudloff/alltube --> https://alltubedownload.net
+To download, we use: https://github.com/Rudloff/alltube --> https://alltubedownload.net
 
-You can contact with @Pablohn26 and/or @Bukosabino to any contribution, idea or feedback.
+You can contact with @[Pablohn26](https://keybase.io/pablohn) and/or @[Bukosabino](https://github.com/bukosabino) to any contribution, idea or feedback.
