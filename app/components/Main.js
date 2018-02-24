@@ -18,11 +18,6 @@ var Main = React.createClass({
                     </div>
                 </nav>
                 <div className="container">
-                    <div className="intro-title">Cant find a video to watch?
-                        <span className="main-title">
-                            &nbsp;Sort through your favorites below!
-                        </span>
-                    </div>
                     <RouteHandler/>
                 </div>
             </div>
