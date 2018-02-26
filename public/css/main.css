@@ -2,6 +2,7 @@
 
 body {
     background-color: rgb(233, 233, 233);
+    background-image: url(/public/img/background.png)
     font-family: "Helvetica Neue", "Helvetica", "Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo", arial, sans-serif;
 }
 
