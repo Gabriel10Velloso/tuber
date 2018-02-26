@@ -1,6 +1,6 @@
 # YouCC.tube
 
-![logo YouCC.tube](tuber/public/img/logo.png)
+![logo YouCC.tube](public/img/logo.png)
 
 Search/Filter/Sort/Download Creative Commons videos on YouTube.
 
