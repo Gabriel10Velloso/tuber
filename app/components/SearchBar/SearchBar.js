@@ -25,7 +25,7 @@ var SearchBar = React.createClass({
                     <span className="input-group-btn">
                         <button
                             type="submit"
-                            className="btn btn-default search-button">Video Search!</button>
+                            className="btn btn-default search-button">CC Video Search!</button>
                     </span>
                 </div>
             </form>
