@@ -10,11 +10,15 @@ var Main = React.createClass({
         return (
             <div className="main-container">
                 <nav className="navbar navbar-default" role="navigation">
-                    <div className="col-md-1 hidden-xs hidden-sm">
-                      <img src="/public/img/logo.png" className="img-responsive logo-md"/>
+                    <div className="col-md-1 navbar-brand hidden-xs hidden-sm">
+                        <a href="#">
+                            <img src="/public/img/logo.png" className="img-responsive"/>
+                        </a>
                     </div>
-                    <div className="col-md-offset-1 col-md-7 search-bar-padding">
-                        <SearchBar />
+                    <div className="container">
+                        <div className="search-bar-padding padding-left-right">
+                            <SearchBar />
+                        </div>
                     </div>
                 </nav>
                 <div className="container">

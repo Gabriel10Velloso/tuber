@@ -6,7 +6,7 @@ var searchYouTubeUtils = {
     getVideos: function(query, callback) {
         query = query || "Creative Commons";
         var baseURL = "https://www.googleapis.com/youtube/v3/search?";
-        var specs = "safeSearch=moderate&part=snippet&q=";
+        var specs = "safeSearch=moderate&part=snippet&order=relevance&q=";
         var maxResults = "&maxResults=" + Config.maxResults + "&key=";
         var apiKey = Config.youtubeApiKey;
         if (Config.creativeCommon) {

@@ -7,7 +7,6 @@ var Table = React.createClass({
     propTypes: {
         onSortBy: React.PropTypes.func.isRequired,
         filterBarText: React.PropTypes.string.isRequired,
-        sortBy: React.PropTypes.string.isRequired,
         newSort: React.PropTypes.bool.isRequired,
         orderByDesc: React.PropTypes.object.isRequired,
         videos: React.PropTypes.array.isRequired

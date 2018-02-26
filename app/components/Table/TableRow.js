@@ -29,7 +29,10 @@ var TableRow = React.createClass({
                 <td className="video-title"><a href={link} target="_blank">{newTitle}</a></td>
                 <td className="bold-title">{views}</td>
                 <td className="italic-title">{date}</td>
-                <td> <a href={downloadLink} target="_blank">Download link</a></td>
+                <td> <a href={downloadLink} target="_blank">
+                      <img src="/public/img/logo_alltube32.png" className="img-responsive"/>
+                    </a>
+                </td>
             </tr>
         );
     }
