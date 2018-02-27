@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexhawkins/frontend-programming-assignment.git"
+    "url": "https://github.com/bukosabino/tuber.git"
   },
   "keywords": [
     "react",
@@ -19,12 +19,12 @@
     "angular",
     "sucks"
   ],
-  "author": "Alex Hawkins 2015",
+  "author": "Bukosabino & Pablohn26",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alexhawkins/frontend-programming-assignment/issues"
+    "url": "https://github.com/bukosabino/tuber/issues"
   },
-  "homepage": "https://github.com/alexhawkins/frontend-programming-assignment",
+  "homepage": "https://github.com/bukosabino/tuber",
   "dependencies": {
     "babel": "^4.7.12",
     "classnames": "^1.1.4",
