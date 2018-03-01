@@ -46,7 +46,7 @@ var Table = React.createClass({
     render: function() {
         var tableRows = [];
         var videos = this.props.videos;
-        if(this.props.newSort) this.handleSort();
+        // if(this.props.newSort) this.handleSort();
 
         tableRows = this.handleTableRows(videos);
 
