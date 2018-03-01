@@ -10,7 +10,7 @@ var TableContainer = React.createClass({
         return {
             videos: searchStore.getVideos(),
             filterBarText: "",
-            sortBy: "title",
+            sortBy: "",
             newSort: true,
             orderByDesc: {
                 snippet:{
